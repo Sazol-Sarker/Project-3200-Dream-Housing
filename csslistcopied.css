@@ -1,0 +1,289 @@
+.head-sec {
+	background: #000;
+	color: white;
+}
+
+.head-sec {
+	width: auto;
+	height: 100%;
+
+	background: linear-gradient(rgba(0, 0, 0, 0.5) 100%, rgba(0, 0, 0, 0.5) 100%),
+		url("resource/apartment-building-city-with-copy-space.jpg");
+
+	/* opacity: 0.5; */
+}
+
+
+ .feature-img {
+	width: 100%;
+	height: 100%;
+} 
+.feature-text{
+   /* height: auto;
+    width: auto; */
+    /* margin-top: 50px; */
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    font-size: 20px;
+    color: whitesmoke;
+    font-weight: 600;
+    background-color: tomato;
+}
+
+
+.upper {
+	margin-top: 3px;
+	margin-bottom: 3px;
+	margin-left: 100px;
+	padding-top: 20px;
+	padding-bottom: 10px;
+
+}
+
+.lower {
+
+	margin-top: 3px;
+	margin-bottom: 3px;
+	margin-left: 100px;
+	padding-top: 3px;
+	padding-bottom: 20px;
+}
+
+/* for rent */
+.to-left {
+	margin-top: 3px;
+	margin-bottom: 3px;
+	margin-left: 90px;
+	padding-top: 20px;
+	padding-bottom: 10px;
+}
+
+.wrapper .container .header {
+	width: 20%;
+	float: left;
+	color: blue;
+	background: #000;
+	border: #000;
+	border-radius: 2px black;
+	/* border-collapse: collapse; */
+}
+
+.wrapper .container .search_wrap .search_box {
+	float: right;
+
+}
+
+.upper a {
+	text-decoration: none;
+}
+
+#home-col {
+	color: white;
+}
+
+#lst-col {
+	color: orange;
+}
+
+
+.input {
+	width: 100%;
+	height: 100%;
+	display: block;
+	border-radius: 2px;
+	font-size: 20px;
+
+}
+
+/* .button{
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    width:100px;
+    height:100%;
+    background: pink;
+} */
+
+/* pagination here */
+
+.pagination {
+	justify-content: center;
+	/* display: inline-block; */
+	
+	color: black;
+	background:white;
+	
+}
+
+.page-link{
+	color: black;
+	font-weight: 600;
+	/* non-removable border */
+	border: none;
+}
+
+.pagination a.active {
+	background-color: orange;
+	color: white;
+}
+
+ /* .pagination a:hover:not(.active) {
+	
+
+	background-color: white;
+}  */
+
+
+/* need modification to orange */
+.container:active {
+	background: orange;
+}
+
+/* ****************************************** */
+
+/* go to details button */
+.btnGo {
+	background: rgb(255, 255, 255);
+	color: black;
+	border: 1px solid black;
+	padding-left: 35px;
+	padding-right: 35px;
+	padding-top: 7px;
+	padding-bottom: 7px;
+	border-radius: 2px;
+}
+
+.btnGo:hover {
+	background: orange;
+}
+
+.list-upd {
+	font-family: sans-serif;
+}
+
+.latest-feature p {
+	font-weight: bold;
+}
+
+/* ******** */
+/* search bar code */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Noto Sans KR', sans-serif;
+}
+
+body {
+	background: #ffda70;
+}
+
+/* for rent floated here */
+.to-left {
+	float: left;
+}
+
+/* src bar floated here */
+.to-right {
+	float: right;
+}
+
+.container .input {
+	border: 0;
+	outline: none;
+	color: #8b7d77;
+}
+
+
+
+.search_wrap {
+	width: 500px;
+	float: right;
+	margin: 38px auto;
+}
+
+.search_wrap .search_box {
+	position: relative;
+	width: 500px;
+	height: 60px;
+	border: #111f40;
+}
+
+.search_wrap .search_box .input {
+	position: absolute;
+	top: 0; 
+	left: 0;
+	width: 100%;
+	height: 100%;
+	padding: 10px 20px;
+	font-size: 18px;
+
+	box-sizing: border-box;
+	/* shadow work left to do here */
+	/* box-shadow: none; */
+	/* box-shadow:3px  2px 2px black; */
+	box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px, rgb(209, 213, 219) 0px 0px 0px 1px inset;
+	border: 1px solid #00000020;
+	border-radius: 2px;
+	outline: none;
+	background: transparent;
+}
+
+.search_wrap .search_box .btn {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 60px;
+	height: 100%;
+	background: rgb(245, 172, 37);
+	border-radius: 0px 3px 3px 0px;
+	border-top-right-radius: 3px;
+	border-bottom-right-radius: 3px;
+	z-index: 1;
+	cursor: pointer;
+}
+
+.search_wrap .search_box .btn:hover {
+	background: tomato;
+}
+
+.search_wrap .search_box .btn.btn_common .fas {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: #fff;
+	font-size: 20px;
+}
+
+/* feature box design>> */
+
+.bolding-para {
+	font-weight: bold;
+	margin-top: 30px;
+	margin-bottom: 0px;
+	margin-left: 100px;
+	padding-top: 80px;
+	padding-bottom: 0px;
+}
+
+.bolding-facility {
+	font-weight: bold;
+}
+.feature-last-icon i {
+color: grey;
+}
+
+.card .row .col  img {
+	max-width: 100%;
+	height: 100%;
+  }
+
+  .page-item{
+	color:black ;
+
+  }
+

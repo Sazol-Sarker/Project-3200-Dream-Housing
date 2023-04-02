@@ -1,0 +1,217 @@
+/* 
+<!--
+     Code Author: Sazol Sarker
+     Roll:1703169
+     CSE,RUET
+ --> */
+
+ /* styling for signup page----> */
+body{
+  height: 100vh;
+  background: #cbdaef;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.card{
+  overflow: hidden;
+  border: 0;
+  border-radius: 3px;
+  /* box shadow correction needed */
+  box-shadow: 0 0.5rem 1rem 0 rgba(0,0,0,0.1);
+}
+
+/* logo design */
+.img-center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  /* width: 50%; */
+  width: 110px;
+  height: 45px;
+}
+/* close button designed */
+.close{
+  font-size:30px;
+  color: blue;
+}
+
+
+/* form-head */
+#form-head{
+  text-align: center;
+  /* font-size: 10px; */
+  margin-bottom: 5px;
+}
+#form-head1{
+  font-size: 15px;
+  color:orange;
+  text-align: center;
+}
+.card-body{
+  padding: 2rem;
+}
+
+.title{
+  margin-bottom: 2rem;
+}
+.form-input{
+  position: relative;
+}
+
+.form-input input{
+  width: 100%;
+  height: 45px;
+  padding-left: 40px;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+  /* shadow work left to do here */
+  box-shadow: none;
+
+  border: 1px solid #00000020;
+  border-radius: 2px;
+  outline: none;
+  background: transparent;
+}
+
+.dropdown{
+  width: 100%;
+  height: 45px;
+  padding-left: 40px;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+  border-radius: 2px;
+  color: red;
+  border: 1px solid #00000020;
+}
+/* 
+#gender-btn{
+  border: 1px solid blue;
+  border-radius: 2px;
+  color: red;
+} */
+
+
+.form-input input::placeholder{
+  color: black;
+  padding-left: 0px;
+
+}
+
+.form-input input:focus::placeholder{
+color: #456952;
+}
+
+/* dropdown menu styling */
+
+
+/* .col{
+  color: #fff;
+  float: left;
+  padding: 10px;
+  height: 300px;
+
+}
+.col-left{
+  width: 10%;
+
+}
+.col-right{
+  width: 50%;
+} */
+
+.form-box button[type="submit"]
+{
+  margin-top: 10px;
+  border:none;
+  cursor: pointer;
+  border-radius: 3px;
+  background:#ff7b00e7;
+  color: #fff;
+}
+
+#container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button-holder{
+  display: flex;
+  justify-content: center;
+}
+#signup_btn{
+  padding-top: 5px;
+  padding-left: 45px;
+  padding-right: 45px;
+  padding-bottom: 5px;
+  border-radius: 5px;
+}
+
+
+.form-box button[type="submit"]:hover{
+  background: #0069d9;
+}
+.or-grp{
+  color: #ff9900;
+  text-align: center;
+}
+
+
+ .login-link{
+  text-align: center;
+  color: #ff9900;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.login-link:hover{
+  color:#0069d9;
+  text-decoration: none;
+}
+
+/* fontawesome */
+.social-icon,.login-sec{
+  display: flex;
+justify-content: center;
+}
+
+.social-icon i{
+background:white;
+font-size: 30px;
+border: 2px solid black;
+border-radius: 50%;
+width: 50px;
+height: 50px;
+text-align: center;
+color: black;
+line-height: 50px;
+}
+
+
+
+ /* styling for listing page----> */
+ 
+
+
+ 
+
+
+
+
+
+
+
+
+ 
+ /* styling for profile page  page----> */
+
+
+
+
+
+
+
+
+
